@@ -1,4 +1,4 @@
-filename = 'C:/git/adventofcode/2022/06day/data.in'
+filename = 'C:/git/adventofcode/2022/day06/data.in'
 data = open(filename).read()
 
 after_msg = 4
