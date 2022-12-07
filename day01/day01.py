@@ -1,7 +1,7 @@
 from operator import methodcaller
-# python -m timeit -n 100 -u msec "$(cat "01day/day01.py")"
+# python -m timeit -n 100 -u msec "$(cat "day01/day01.py")"
 
-filename = 'C:/git/adventofcode/2022/01day/data.in'
+filename = 'C:/git/adventofcode/2022/day01/data.in'
 max_value = -1
 
 elfs = sorted(map(lambda x: sum(map(int, x)) , map(methodcaller('split', '\n'), map(str.strip, open(filename).read().split('\n\n')))))

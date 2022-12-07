@@ -1,4 +1,4 @@
-filename = 'C:/git/adventofcode/2022/04day/data.in'
+filename = 'C:/git/adventofcode/2022/day04/data.in'
 
 total_score = 0
 

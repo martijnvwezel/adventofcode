@@ -1,7 +1,7 @@
 import string
 
 
-filename = 'C:/git/adventofcode/2022/03day/data.in'
+filename = 'C:/git/adventofcode/2022/day03/data.in'
 
 total_score = 0
 lookuptable = {}

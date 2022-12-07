@@ -1,4 +1,4 @@
-filename = 'C:/git/adventofcode/2022/02day/data.in'
+filename = 'C:/git/adventofcode/2022/day02/data.in'
 
 # rock -> A/x -> 1 punt
 # paper -> B/y -> 2 punt
