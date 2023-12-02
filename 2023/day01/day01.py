@@ -26,18 +26,13 @@ print(sum)
 
 number_dict = {
     # edge cases
-    'oneight':18,
-    
+    'oneight':18,    
     'twone': 21,
-
     'threeight':  38,
-    'fiveight': 58,    
-
+    'fiveight': 58,
     'sevenine': 79,
-
     'eightwo': 82,
-    'eighthree': 83,
-    
+    'eighthree': 83,    
     'nineight': 98,
 
     # normal flow
@@ -50,26 +45,28 @@ number_dict = {
     'seven': 7,
     'eight': 8,
     'nine': 9,
-
 }
 
 
 sum = 0
-for row in elfs:
-
-    output_string = row
-    
-
-
+for row in elfs:    
     for nu in number_dict:        
-        output_string = output_string.replace(nu, str(number_dict[nu]))
+        row = row.replace(nu, str(number_dict[nu]))
 
-    numbers_only = re.sub(r'[^0-9]', '', output_string)
-
+    numbers_only = re.sub(r'[^0-9]', '', row)
     sum += int(numbers_only[0] + numbers_only[-1])
 
-
-    print(row, "  --   ", output_string,"  ----   ",int(numbers_only[0] + numbers_only[-1]))
-
-
 print(sum)
+
+
+
+
+
+
+
+
+
+
+
+
+
