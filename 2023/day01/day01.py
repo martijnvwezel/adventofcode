@@ -25,6 +25,22 @@ print(sum)
 
 
 number_dict = {
+    # edge cases
+    'oneight':18,
+    
+    'twone': 21,
+
+    'threeight':  38,
+    'fiveight': 58,    
+
+    'sevenine': 79,
+
+    'eightwo': 82,
+    'eighthree': 83,
+    
+    'nineight': 98,
+
+    # normal flow
     'one': 1,
     'two': 2,
     'three': 3,
@@ -33,15 +49,19 @@ number_dict = {
     'six': 6,
     'seven': 7,
     'eight': 8,
-    'nine': 9
+    'nine': 9,
+
 }
 
 
 sum = 0
 for row in elfs:
-    output_string = row
 
-    for nu in number_dict:
+    output_string = row
+    
+
+
+    for nu in number_dict:        
         output_string = output_string.replace(nu, str(number_dict[nu]))
 
     numbers_only = re.sub(r'[^0-9]', '', output_string)
