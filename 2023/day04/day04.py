@@ -1,5 +1,3 @@
-
-
 filename = '2023/day04/data.in'
 
 
@@ -26,13 +24,3 @@ for bag in elfs:
     sum += temp
 
 print(sum)
-
-
-
-
-
-
-
-
-
-
